@@ -1,10 +1,10 @@
 {
   "name": "Hassio Hostapd",
   "version": "1.0.1",
-  "slug": "hassio_hostapd",
+  "slug": "hassio-hostapd",
   "description": "Raspberry Pi as hotspot in hass.io",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "url": "https://github.com/davidramosweb/hassio_hostapd",
+  "url": "https://github.com/davidramosweb/hassio-addons/tree/master/hassio-hostapd",
   "startup": "system",
   "boot": "auto",
 
