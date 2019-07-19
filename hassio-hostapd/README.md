@@ -1,15 +1,15 @@
 # hassio-hostapd
-Raspberry Pi as hotspot in `hass.io`
+Raspberry Pi as hotspot in hass.io
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
-### This `Hass.io` Addon
+### This Hass.io Addon
 
 This add-on allows you  to use the Raspberry Pi as a hotspot to connect the different devices directly to the `hass.io` network without going through the router.
 
 ## Installation
 
-To use this repository with your own `Hass.io` installation please follow [the official instructions](https://www.home-assistant.io/hassio/installing_third_party_addons/) on the Home Assistant website with the following URL:
+To use this repository with your own Hass.io installation please follow [the official instructions](https://www.home-assistant.io/hassio/installing_third_party_addons/) on the Home Assistant website with the following URL:
 
 ```txt
 https://github.com/davidramosweb/hassio-addons
