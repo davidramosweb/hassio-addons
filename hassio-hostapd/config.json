@@ -9,6 +9,7 @@
   "boot": "auto",
 
   "full_access": true,
+  "devices": ["/dev/mem:/dev/mem:rw"],
   "privileged": [ "SYS_RAWIO", "SYS_ADMIN", "NET_ADMIN" ],
   "host_network": true,
 
