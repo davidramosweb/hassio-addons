@@ -31,12 +31,5 @@ The available configuration options are as follows (this is filled in with some 
 ```
 **Note**: _This is just an example, don't copy and paste it! Create your own!_
 
-### Conflicts
-To prevent the addon stop working after a few minutes, you must disable NetworkManager for wlan0. 
-You can use the [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh) addon with the option "Protection mode" disabled and run the following command:
-```
-nmcli dev set wlan0 managed no
-```
-
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/davidramosweb

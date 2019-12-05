@@ -1,18 +1,33 @@
 {
   "name": "Hassio Hostapd",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "slug": "hassio-hostapd",
   "description": "Raspberry Pi as hotspot in hass.io",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "url": "https://github.com/davidramosweb/hassio-addons/tree/master/hassio-hostapd",
   "startup": "system",
   "boot": "auto",
-
-  "full_access": true,
-  "devices": ["/dev/mem:/dev/mem:rw"],
-  "privileged": [ "SYS_RAWIO", "SYS_ADMIN", "NET_ADMIN" ],
   "host_network": true,
-
+  "apparmor": false,
+  "host_dbus": true,
+  "full_access": true,
+  "privileged": [
+    "NET_ADMIN",
+    "SYS_ADMIN",
+    "SYS_RAWIO",
+    "SYS_TIME",
+    "SYS_NICE"
+  ],
+  "devices": [
+    "/dev/mem:/dev/mem:rwm"
+  ],
+  "map": [
+    "config:rw",
+    "ssl:rw",
+    "addons:rw",
+    "share:rw",
+    "backup:rw"
+  ],
   "options": {
     "ssid": "",
     "wpa_passphrase": "",

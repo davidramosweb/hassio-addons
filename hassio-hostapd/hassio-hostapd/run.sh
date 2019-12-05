@@ -14,6 +14,9 @@ trap 'term_handler' SIGTERM
 
 echo "Starting..."
 
+echo "Set nmcli managed no"
+nmcli dev set wlan0 managed no
+
 CONFIG_PATH=/data/options.json
 
 SSID=$(jq --raw-output ".ssid" $CONFIG_PATH)
