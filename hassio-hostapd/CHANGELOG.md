@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.3]
+### Fixed
+- Update apk networkmanager and sudo in Dockefile. 
+
 ## [1.0.2]
 ### Fixed
 - Disabled NetworkManager for wlan0 to prevent the addon stop working after a few minutes. 
