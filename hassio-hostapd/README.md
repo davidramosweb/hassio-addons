@@ -1,7 +1,7 @@
 # hassio-hostapd
 Raspberry Pi as hotspot in hass.io
 
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+<a href='https://ko-fi.com/A0A12HZT1' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi4.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ### This Hass.io Addon
 
@@ -30,6 +30,3 @@ The available configuration options are as follows (this is filled in with some 
 }
 ```
 **Note**: _This is just an example, don't copy and paste it! Create your own!_
-
-[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
-[buymeacoffee]: https://www.buymeacoffee.com/davidramosweb
