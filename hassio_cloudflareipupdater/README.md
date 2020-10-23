@@ -3,7 +3,7 @@ Dynamic IP Updater for Cloudflare in hass.io
 
 [![Community Forum][forum-shield]][forum]
 
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+<a href='https://ko-fi.com/A0A12HZT1' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi4.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 
 ### This Hass.io Addon
@@ -37,7 +37,5 @@ You should add this in your automations.yaml:
     data:
       addon: local_hassio_cloudflareipupdater
 ```
-[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
-[buymeacoffee]: https://www.buymeacoffee.com/davidramosweb
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/hass-io-addon-dynamic-ip-updater-for-cloudflare/122580
